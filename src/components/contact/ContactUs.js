@@ -7,6 +7,8 @@ const useStyles = makeStyles({
 })
 
 const ContactUs = props => {
+    const classes = useStyles();
+
     return (
         <h2>
             Contact us

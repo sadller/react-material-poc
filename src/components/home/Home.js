@@ -7,6 +7,8 @@ const useStyles = makeStyles({
 })
 
 const Home = props => {
+    const classes = useStyles();
+    
     return (
         <h2>
             Home

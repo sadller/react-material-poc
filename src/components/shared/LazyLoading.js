@@ -9,6 +9,8 @@ const useStyles = makeStyles({
 })
 
 const LazyLoading = props => {
+    const classes = useStyles();
+    
     return (
         <div>
             Loading...
